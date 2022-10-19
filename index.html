@@ -1,0 +1,78 @@
+<html>
+<head>
+    <!-- with help from https://www.demo2s.com/javascript/javascript-grid-clickable-grid.html -->
+  <title>ScheduleUS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- All styling on this page, main content in scripts.js -->
+  <style id="compiled-css" type="text/css">
+    .square {
+        float:right;
+        position: relative;
+        width: 5%;
+        height: 4.5%;
+        padding-bottom: 3.8125%;
+        padding-right: 1%;
+        padding-left: 1%;
+        background-color:#ECECEC;
+        overflow:hidden;
+        
+    }
+    .name{
+        padding-top: 40%;
+    }
+    .content {
+        
+        position:absolute;
+        margin: 0 auto;
+        text-align:center;
+    }
+    .content .rs{
+        width:60px;
+        height:60px;
+        max-height:90%;
+        max-width:100%;
+    }
+    .table{
+        display:table;
+        height:100%;
+        width:100%;
+    }
+    .table-cell{
+        display:table-cell;
+        margin: 0 auto;
+        vertical-align:middle;
+        height:100%;
+        width:100%;
+    }
+    body {
+        font-size:18px;
+        font-family: 'Lato',verdana, sans-serif;
+        color: #000000;
+        background:#ECECEC;
+    }
+    .numbers{
+        font-weight:900;
+        font-size:100px;
+    }
+    #info{
+        font-size:18px;
+        font-weight:900;
+        padding-bottom: 18px;
+    }
+  </style>
+</head>
+
+<body>
+    <h2>ScheduleUs</h2>
+    <div id="info">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        &nbsp&nbsp&nbsp M (2:30-3) &nbsp&nbsp&nbsp M (3-3:30) &nbsp&nbsp&nbsp M (3:30-4) &nbsp&nbsp&nbsp M (4-4:30) &nbsp&nbsp&nbsp&nbsp M (4:30-5) &nbsp&nbsp&nbsp M (5-5:30) &nbsp&nbsp&nbsp M (5:30-6)
+        &nbsp&nbsp&nbsp&nbsp T (2:30-3) &nbsp&nbsp&nbsp&nbsp&nbsp T (3-3:30) &nbsp&nbsp&nbsp&nbsp T (3:30-4) &nbsp&nbsp&nbsp&nbsp T (4-4:30) &nbsp&nbsp&nbsp&nbsp&nbsp T (4:30-5) &nbsp&nbsp&nbsp&nbsp&nbsp T (5-5:30)
+
+    </div>
+        <script src="js/scripts.js"></script>
+    </div>
+    
+</body>
+
+</html>
